@@ -36,6 +36,7 @@
          }
         
         render() {
+          //I could use an if statement to deal with the plurality of the word "time", but I don't actually have a functional timesVisited counter so it would only ever have one result with this setup
           return (
             <div>
               <h2>And welcome, {this.props.name}! You have visited {this.state.timesVisited} time(s).</h2>
